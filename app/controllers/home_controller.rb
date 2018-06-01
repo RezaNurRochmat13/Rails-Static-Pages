@@ -5,7 +5,15 @@ class HomeController < ApplicationController
     end
 
     def profile
-        render 'home/profile'
+        render 'profile/profile'
+    end
+
+    def about
+        render 'about/about'
+    end
+
+    def experience
+        render 'experience/experience'
     end
 
 end
